@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+:root {
+    --bodyFont: 'Pontano Sans', sans-serif;
+    --transition: .3s ease;
+    --gray: #333333;
+    --darkgray: #2e2e2e;
+    --yellow: #f3cd52;
+    --lightgray: rgba(255,255,255,0.4);
+    --white: #fff;
+    --font: 16px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: var(--font);
+    font-family: var(--bodyFont);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/************************
+*******HEADER************
+************************/
+
